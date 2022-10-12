@@ -1,0 +1,23 @@
+{
+  "name": "modo_asincromo_2465903",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon callback/1_simple.js",
+    "dev2": "nodemon callback/2_simple_arrow.js",
+    "dev3": "nodemon callback/3_request.js",
+    "dev4": "nodemon promises/2_simple_arrow.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
